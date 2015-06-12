@@ -1,0 +1,14 @@
+import socket
+import select
+import sys
+
+port = raw_input("Enter the port to listen on: ")
+backlog = 5
+size = 512
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+s.bind((host, port))
+
+#Listen for incoming connection on the port given by user
+s.listen(backlog)
