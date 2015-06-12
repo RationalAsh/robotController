@@ -2,10 +2,10 @@
 This is an android app that I made to stream motion commands over a wireless network.
 It uses accelerometer readings to decide which way the phone is tilting and sends 5
 motion commands.
-F - Forward (When the phone is pitching forward)
-B - Back (When the phone is pitching back)
-L - Left (When the phone is rolling left)
-R - Right (When the phone is rolling right)
+W - Forward (When the phone is pitching forward)
+S - Back (When the phone is pitching back)
+A - Left (When the phone is rolling left)
+D - Right (When the phone is rolling right)
 H - Halt (When the phone is relatively parallel to the ground)
 
 The app has a text field to enter the IP address of a TCP server. To use the app,
